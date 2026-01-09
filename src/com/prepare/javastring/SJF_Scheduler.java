@@ -83,5 +83,6 @@ public class SJF_Scheduler {
         // Step 5: Calculate average waiting time
         double averageWaitingTime = (double) totalWaitingTime / tasks.size();
         System.out.println("Average Waiting Time = " + averageWaitingTime);
+        System.out.println("Total Waiting Time: " + totalWaitingTime);
     }
 }
